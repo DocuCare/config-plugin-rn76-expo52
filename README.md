@@ -13,6 +13,12 @@
 ```
 "config-plugin-rn76-expo52": "git+https://github.com/DocuCare/config-plugin-rn76-expo52.git"
 ```
+or
+
+```shell
+yarn add DocuCare/config-plugin-rn76-expo52 # yarn
+npm install --save DocuCare/config-plugin-rn76-expo52 # npm
+```
 
 - Add the plugin to `plugins` in your `app.config.{js,ts}`
 
