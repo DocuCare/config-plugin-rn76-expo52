@@ -1,3 +1,19 @@
+jest.mock('@expo/config-plugins', () => ({
+    withGradleProperties: (config, action) => {
+        const exportedConfig = {
+            modResults: config.android.gradleProperties.modResults
+        };
+        const result = action(exportedConfig);
+        return {
+            ...config,
+            android: {
+                ...config.android,
+                gradleProperties: result
+            }
+        };
+    }
+}));
+
 const withConfigPlugin = require('./index');
 
 describe('Gradle Properties Plugin', () => {
