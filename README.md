@@ -15,3 +15,9 @@
 ```
 
 - Add the plugin to `plugins` in your `app.config.{js,ts}`
+
+```
+plugins: [
+  "config-plugin-rn76-expo52"
+]
+```
