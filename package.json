@@ -1,0 +1,27 @@
+{
+  "name": "config-plugin-rn76-expo52",
+  "version": "0.1.0",
+  "description": "Expo config plugin to make using rn 0.76 and expo 52 easier",
+  "keywords": [
+    "expo",
+    "config-plugin",
+    "react-native",
+    "gradle",
+    "jetifier"
+  ],
+  "homepage": "https://github.com/DocuCare/config-plugin-rn76-expo52#readme",
+  "bugs": {
+    "url": "https://github.com/DocuCare/config-plugin-rn76-expo52/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DocuCare/config-plugin-rn76-expo52.git"
+  },
+  "license": "MIT",
+  "author": "techgaun",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
