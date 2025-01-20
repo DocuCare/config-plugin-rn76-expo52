@@ -42,7 +42,7 @@ Users/<SOME_USER>/some_expo_app/android/app/src/debug/AndroidManifest.xml:28:18-
         Suggestion: add 'tools:replace="android:appComponentFactory"' to <application> element at AndroidManifest.xml:6:5-162 to override.
 ```
 
-2. Heap space seems to be low (`-Xmx2048m` seems to be the default)
+2. Heap space seems to be low (`-Xmx2048m` seems to be the default set in `android/gradle.properties` as far as available memory allocation pool)
 
 ```
 > Task :app:checkDebugAarMetadata FAILED
